@@ -1,3 +1,4 @@
-const web = require('./module/myModule')
+const { myArray, myNumber } = require("./module/myModule");
 
-console.log(web)
+console.log(myArray);
+console.log(myNumber);
